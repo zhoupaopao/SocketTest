@@ -20,6 +20,7 @@ public class mytest {
         //2.调用accept()等待客户端连接
         System.out.println("~~~服务端已就绪，等待客户端接入~，服务端ip地址: " + ip);
         socket = serverSocket.accept();
+        //需要链接后才能继续执行下去，不然下面是不会执行
         //3.连接后获取输入流，读取客户端信息
         InputStream is=null;
         InputStreamReader isr=null;

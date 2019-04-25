@@ -4,25 +4,24 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <Button
-        android:id="@+id/btn_accept"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小猪简易聊天室" />
+    <TextView
+        android:id="@+id/txtshow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="发送"/>
-    <Button
-        android:id="@+id/btn_accept1"
+        />
+    <EditText
+        android:id="@+id/editsend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="发送socket"/>
+        />
     <Button
-        android:id="@+id/chat"
+        android:id="@+id/btnsend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="进入聊天室"/>
-    <Button
-        android:id="@+id/useudp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="使用udp,无法接受，不清楚情况"/>
-
+        android:text="发送"
+        />
 </LinearLayout>
