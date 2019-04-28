@@ -23,6 +23,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".ChatActivity"/>
+        <activity android:name=".ListActivity"/>
+        <activity android:name=".ListViewActivity"/>
+        <activity android:name=".RecycleViewActivity"/>
+        <activity android:name=".NoListActivity"/>
     </application>
 
 </manifest>

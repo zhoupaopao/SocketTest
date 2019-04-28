@@ -24,5 +24,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="使用udp,无法接受，不清楚情况"/>
-
+    <Button
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用列表"/>
 </LinearLayout>

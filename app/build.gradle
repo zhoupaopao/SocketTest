@@ -34,6 +34,10 @@ dependencies {
     compile 'com.tencent.bugly:nativecrashreport:latest.release' //其中latest.release指代最新Bugly NDK版本号，也可以指定明确的版本号，例如3.0
     compile 'com.android.support:multidex:1.0.0'
     testImplementation 'junit:junit:4.12'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    //1.1.0 API改动过大，老用户升级需谨慎
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'//没有使用特殊Header，可以不加这行
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }

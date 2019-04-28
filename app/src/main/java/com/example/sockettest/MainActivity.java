@@ -27,10 +27,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btn_accept1 = (Button) findViewById(R.id.btn_accept1);
         Button useudp = (Button) findViewById(R.id.useudp);
         Button chat=findViewById(R.id.chat);
+        Button list=findViewById(R.id.list);
         btn_accept.setOnClickListener(this);
         btn_accept1.setOnClickListener(this);
         useudp.setOnClickListener(this);
         chat.setOnClickListener(this);
+        list.setOnClickListener(this);
     }
 
     @Override
@@ -69,6 +71,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             }
                         }
                     }).start();
+
+                break;
+            case R.id.list:
+                Intent intent1=new Intent(this,ListActivity.class);
+                startActivity(intent1);
 
                 break;
         }
